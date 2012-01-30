@@ -1,0 +1,76 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8em;
+}
+
+noscript p {
+font-weight: bold;
+font-size: 1.4em;
+color: red;
+}
+
+h1 {
+margin: 0;
+padding: 0.4em;
+background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#fff));
+border-top-left-radius: 0.3em;
+border-top-right-radius: 0.3em;
+border-style: solid;
+border-color: gray;
+border-width: 1px 1px 0 1px;
+}
+
+h2 {
+margin: 0.8em 1.2em 0.2em 1.2em;
+}
+
+h2 span:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+h2 + div {
+margin: 0 1.8em;
+padding: 0.6em;
+background: -webkit-gradient(linear, left bottom, left top, from(#e6e6e6), to(#fff));
+border-bottom-left-radius: 0.6em;
+border-bottom-right-radius: 0.6em;
+}
+
+textarea#network-output {
+white-space: nowrap;
+}
+
+div p {
+margin: 0;
+padding: 0;
+}
+
+div ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+div ul li {
+font-weight: bold;
+display: inline;
+margin-right: 1em;
+}
+
+div ul li span:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+div#guest-information {
+float: right;
+margin: 0;
+padding: 0.8em;
+border: 1px solid #000;
+font-size: 0.9em;
+}
+
+div#guest-information p em {
+font-style: italic;
+}
